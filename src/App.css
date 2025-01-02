@@ -1,0 +1,137 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url('fonts/Montserrat-VariableFont_wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* .container{
+  margin: 0px !important;
+  padding: 0px 0px 0px 0px   !important;
+  max-width:  1280px !important;
+} */
+
+
+
+
+
+.full-container{
+  margin: 0px !important;
+  padding: 0px 0px 0px 0px !important;
+  max-width:  1280px !important;
+}
+.row{
+  margin: 0px 0px 0px 0px !important;
+
+  padding: 0px 0px 0px 0px !important;
+
+}
+
+.briks {
+  height: 80px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.briks .img {
+  height: 80px;
+  position: relative;
+  right: 20px;
+}
+
+.navitems {
+  height: 80px;
+  justify-content: center;
+  /* Horizontal centering (optional) */
+  align-items: center;
+  /* Vertical centering */
+}
+
+.contact {
+  height: 80px;
+}
+
+
+
+@media (max-width: 576px) {
+  
+  .nav-link{
+    color: rgb(37, 177, 170) !important;
+    background-color: rgba(236, 197, 197, 0.288) !important;
+  }
+
+  .briks{
+    justify-content: center;
+    width: 100%;
+  }
+
+  .contact {
+   display: none;
+  }
+
+  .bannersm .pt-4{
+
+height: 2500px;
+  }
+  .bannersm .col {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  .bannersm .card{
+    margin-left: 5px;
+    margin-bottom: 30px;
+    width: 600px !important;
+  }
+
+.contactus{
+  padding: 0px !important;
+  position: relative;
+  top :900px;
+  height: 1000px !important;
+}
+
+.contactus .pt-5 {
+  padding-top: 0px !important;
+
+}
+
+.contactus p{
+  margin-top: 0px !important;
+  padding-top: 0px !important;
+  font-family:'Montserrat';
+  font-size: 18px !important;
+  line-height: 20px !important;
+  font-weight: bold;
+
+
+}
+
+.form-div .pt-5{
+
+  margin-top: 0px !important;
+  padding-top: 0px !important;
+
+}
+
+.form-div .text-white{
+
+ color:brown !important;
+}
+
+.from-header .text-white{
+
+ color: brown !important;
+}
+
+.map-div{
+
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 50px !important;
+  margin-left: -20px !important;
+
+}
+
+}
