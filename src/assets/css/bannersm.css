@@ -1,0 +1,45 @@
+
+.image{
+  
+    opacity: 1;
+}
+
+
+
+
+@media (max-width: 576px) {
+
+    .bannersm{
+        position: relative;
+        top: 620px;
+        left: 0px;
+        padding: 0px !important;
+    }
+
+    .image{
+     
+        height: 1350px !important;
+    }
+
+    .bannersm .col {
+      justify-content: center;
+      align-items: center;
+      display: flex;
+    }
+    .bannersm .card{
+      margin-left: 5px;
+      margin-bottom: 30px;
+      width: 600px !important;
+    }
+
+    .bannersm .h1{
+     
+        text-align: center;
+    }
+    .bannersm .h3{
+     
+        text-align: center;
+    }
+  
+  
+  }

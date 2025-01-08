@@ -1,10 +1,12 @@
 import React from 'react'
 
+import '../assets/css/bannersm.css'
+
 export default function BannerSm({image,text1,text2}) {
     return (
         <div className="container full-container bannersm">
             <div
-                className="pt-4"
+                className="image pt-4"
                 style={{
                     backgroundImage: `url(${image})`,
                     backgroundSize: "cover",
@@ -13,8 +15,9 @@ export default function BannerSm({image,text1,text2}) {
                     height: "400px",
                 }}
             >
-                <h1 className='h1  ps-5 mt-3  '>{text1}</h1>
-                <h3 className='h3  ps-5 '>{text2}</h3>
+
+                <h1 className='h1 text-black  ps-5 mt-3  '>{text1}</h1>
+                <h3 className='h3  text-black ps-5 '>{text2}</h3>
                 <div class="container full-container ">
                     <div class="row mt-4 ps-3 me-3 ">
                         <div class="col ">

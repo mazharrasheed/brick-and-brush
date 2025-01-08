@@ -22,7 +22,6 @@ function App() {
     <>
       <Router>
         <Navbar></Navbar>
-        
         <Routes>
           <Route path="/" element={<Main></Main>} />
           <Route path="/services/" element={<Services></Services>} />

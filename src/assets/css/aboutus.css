@@ -40,7 +40,7 @@
     justify-content: center
 }
 .aboutco .mt-5{
-    margin: 15px !important;
+    margin: 0px !important;
     padding: 0px !important;
     justify-content: center
 }
@@ -48,7 +48,7 @@
 .aboutco .p1{
     margin-top: 10px;
     font-family:'Montserrat';
-    font-size: 35px;
+    font-size: 30px;
     font-weight: bold;
 }
 .aboutco .p2{
