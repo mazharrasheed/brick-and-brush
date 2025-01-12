@@ -1,5 +1,5 @@
-.image{
-    opacity:1;
+.image {
+    opacity: 1;
 }
 
 .overlay {
@@ -8,25 +8,27 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.1); /* Black with 50% transparency */
-    z-index: 1; /* Place it above the image */
-  }
+    background-color: rgba(0, 0, 0, 0.1);
+    /* Black with 50% transparency */
+    z-index: 1;
+    /* Place it above the image */
+}
 
 .from-header {
     position: relative;
-    top: -660px;
+    top: -530px;
 }
 
 .form-map {
     position: relative;
-    top: -580px;
+    padding: 0px 50px 0px 50px !important;
+    top: -530px;
 }
-
 
 .contactus {
     padding: 0px !important;
     position: relative;
-    height: 668px !important;
+    height: 525px !important;
 
 }
 
@@ -40,18 +42,29 @@
 }
 
 @media (max-width: 576px) {
-    .image{
-       position: relative;
-       top: -600px;
+
+    .image {
+        position: relative;
+        top: -600px;
     }
+
     .from-header {
         position: relative;
-        top: -1170px;
-    }   
+        top: -1350px;
+    }
 
     .form-map {
         position: relative;
-        top: -1180px;
+        top: -1250px;
+        padding: 0px !important;
+    }
+
+    .form-map h1 {
+        font-size: 25px !important;
+    }
+
+    .form-map h6 {
+        font-size: 12px !important;
     }
 
     .contactus {
@@ -59,7 +72,7 @@
         position: relative;
         top: 0px;
         height: 1130px !important;
-      
+
     }
 
     .contactus p {
@@ -75,7 +88,6 @@
         padding-top: 0px !important;
 
     }
-
 
     .form-div .pt-5 {
         position: relative;

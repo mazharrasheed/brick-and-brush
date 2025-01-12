@@ -1,14 +1,12 @@
 .footer{
 position: relative;
+padding: 25px;
 
     z-index: 100;
 
+
 }
 
-
-
 @media (max-width: 576px) {
-
-
 
   }

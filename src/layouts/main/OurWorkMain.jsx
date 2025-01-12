@@ -5,7 +5,7 @@ export default function OurWorkMain() {
 
         <div className='container full-container mt-4' >
             <div className='row mt-5 titlerow '>
-                <h2 className=''> Our WORK  <span className=' fs-6'><Link>All WORKS </Link></span></h2>
+                <h2 className=''> OUR WORK  <span className=' fs-6'><Link>ALL WORKS </Link></span></h2>
             </div>
             <div className="container">
             <div className='row p-3 ourwork '>

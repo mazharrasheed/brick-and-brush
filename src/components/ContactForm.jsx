@@ -6,23 +6,22 @@ export default function ContactForm() {
     return (
         <div className='container full-container contactus'>
 
-            <img class="img-fluid image"  src="/images/contactus.svg" alt="image" />
-            <div className="overlay"></div>
-            <div className="row from-header mt-3  ">
+            <img class='img-fluid image'  src="/images/contactus.svg" alt='image' />
+            <div className='overlay'></div>
+            <div className='row from-header mt-3' >
                 <p className=' text-center text-white fw-bold z-3'>
                     ARE YOU INTRESTED IN OUR SERVICES ? <br />
                     THEN LEAVE A REQUEST AND WE WIL CONTACT YOU
                 </p>
             </div>
-
-            <div className="row form-map ms-5 me-5 z-3">
+            <div className='row form-map z-3'>
                 <div className="col-md-5 form-div">
                 <h1 className='fw-bold text-white'>CONTACT WITH US</h1>
-                <h6 className='text-white '> WE ARE READY TO HELP YOU WITH <br /> YOUR HOME RENOVATIONWE PROJECT</h6>
-                    <form action="" className=''>
+                <h6 className='text-white'> WE ARE READY TO HELP YOU WITH <br /> YOUR HOME RENOVATIONWE PROJECT </h6>
+                    <form action='' className=''>
                         <input className='form-control mb-3' type="text" placeholder='NAME' />
                         <input className='form-control mb-3' type="email" placeholder='EMAIL' />
-                        <textarea className="form-control mb-3" rows="4" placeholder='MESSAGE'></textarea>
+                        <textarea className='form-control mb-3' rows="4" placeholder='MESSAGE'></textarea>
                         <input className='btn btn-warning' type="submit" value="GET STARTED" />
                     </form>
                 </div>
@@ -30,7 +29,6 @@ export default function ContactForm() {
                     <div className="row g-0 ms-5 border ">
                     <iframe src="https://www.google.com/" width="100%" height="380" frameborder="0" allowfullscreen></iframe>
                     </div>
-                
                 </div>
             </div>
         </div>
