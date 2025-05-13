@@ -10,10 +10,10 @@ export default function OurWorkMain() {
             <div className="container">
             <div className='row p-3 ourwork '>
                 <div className="col-md-6 p-3 pb-0">
-                    <img class="img-fluid" src="/images/kitchen1-ourwork.svg" alt="" />
+                    <img class="img-fluid" src="images/kitchen1-ourwork.svg" alt="" />
                 </div>
                 <div className="col-md-6 p-3">
-                    <img class="img-fluid" src="/images/kitchen-ourwork.svg" alt="" />
+                    <img class="img-fluid" src="images/kitchen-ourwork.svg" alt="" />
                 </div>
             </div>
             </div>

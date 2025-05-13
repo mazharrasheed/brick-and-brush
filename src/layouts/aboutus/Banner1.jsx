@@ -4,7 +4,7 @@ export default function Banner1() {
     return (
         <div className='container full-container banner1 '
             style={{
-                backgroundImage: "url('/images/aboutus/banner1.png')",
+                backgroundImage: "url('images/aboutus/banner1.png')",
                 backgroundSize: "cover",
                 backgroundPosition: "center",
                 backgroundRepeat: "no-repeat",

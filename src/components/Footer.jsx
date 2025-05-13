@@ -8,7 +8,7 @@ export default function Footer() {
       <div className="footer">
         <div className="row log-row  ">
           <div className="col-md-4 ">
-            <img className='img-fluid' src="/images/footerlogo.svg" alt="" />
+            <img className='img-fluid' src="images/footerlogo.svg" alt="" />
             <p className='text-white ps-3'>
               BRICK & BRUSH INC - however, forget
               that consultation with a broad

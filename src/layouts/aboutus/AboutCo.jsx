@@ -14,7 +14,7 @@ export default function AboutCo() {
 
                 <div className="row mt-5 ">
                     <div className="col-md-6 justify-content-center mt-5 p-5">
-                        <img className=" mt-5 " src="/images/Brick&Brush.svg" alt="briklogo" />
+                        <img className=" mt-5 " src="images/Brick&Brush.svg" alt="briklogo" />
                     </div>
                     <div className="col-md-6 justify-content-center g-0">
                         <p className='p2'>
