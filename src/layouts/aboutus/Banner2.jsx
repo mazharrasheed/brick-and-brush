@@ -12,8 +12,8 @@ export default function Banner2() {
             }}
         >
             <div className="container">
-            <p className='p1 text-white  '> WHAT WE DO </p>
-            <p className='p3 text-white ms-4'>
+            <p className='p1 '> WHAT WE DO </p>
+            <p className='p3  ms-4'>
             OF DAILY WORK ON THE FORMATION OF A POSITION REQUIRES US TO <br />
             ANALYZE THE APPROPRIATE ACTIVATION CONDITIONS. THE TASK OF THE <br />
             ORGANIZATION, IN PARTICULAR THE BEGINNING OF DAILY WORK ON THE <br />
