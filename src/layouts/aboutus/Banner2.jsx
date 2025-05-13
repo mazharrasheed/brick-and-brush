@@ -1,12 +1,10 @@
 import React from 'react'
 
-// import image1 from '../assets/images/banner2.png'
-
 export default function Banner2() {
     return (
         <div className=' banner2 mt-4 '
             style={{
-                backgroundImage: `url(${image1})`,
+                backgroundImage: "url('/images/aboutus/banner2.png')",
                 backgroundSize: "cover",
                 backgroundPosition: "center",
                 backgroundRepeat: "no-repeat",
