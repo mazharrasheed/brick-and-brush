@@ -1,5 +1,16 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+
+import servicesimg1 from '../../assets/images/painting-a-deck-vs-staining.svg';
+import servicesimg2 from '../../assets/images/exterior-house-painting-in-winter.svg';
+import servicesimg3 from '../../assets/images/painting-a-fence-vs-staining.svg';
+import servicesimg4 from '../../assets/images/clean-garage.svg';
+import servicesimg5 from '../../assets/images/painting-a-deck-vs-staining.svg';
+import servicesimg6 from '../../assets/images/exterior-house-painting-in-winter.svg';
+import servicesimg7 from '../../assets/images/painting-a-fence-vs-staining.svg';
+import servicesimg8 from '../../assets/images/clean-garage.svg';
+
+
 export default function ServicesMain() {
     return (
 
@@ -10,28 +21,28 @@ export default function ServicesMain() {
             <div className="container full-container">
             <div className='row p-3 services '>
                 <div className="col-md-3 p-3 pb-0">
-                    <img src="/images/painting-a-deck-vs-staining .svg" alt="" />
+                    <img src={servicesimg1} alt="" />
                 </div>
                 <div className="col-md-3 p-3">
-                    <img src="/images/exterior-house-painting-in-winter.svg" alt="" />
+                    <img src={servicesimg2} alt="" />
                 </div>
                 <div className="col-md-3  p-3">
-                    <img src="/images/painting-a-fence-vs-staining .svg" alt="" />
+                    <img src={servicesimg3} alt="" />
                 </div>
                 <div className="col-md-3 p-3">
-                    <img src="/images/clean-garage.svg" alt="" />
+                    <img src={servicesimg4} alt="" />
                 </div>
                 <div className="col-md-3 p-3">
-                    <img src="/images/painting-a-deck-vs-staining .svg" alt="" />
+                    <img src={servicesimg5} alt="" />
                 </div>
                 <div className="col-md-3 p-3">
-                    <img src="/images/exterior-house-painting-in-winter.svg" alt="" />
+                    <img src={servicesimg6} alt="" />
                 </div>
                 <div className="col-md-3  p-3">
-                    <img src="/images/painting-a-fence-vs-staining .svg" alt="" />
+                    <img src={servicesimg7} alt="" />
                 </div>
                 <div className="col-md-3 p-3">
-                    <img src="/images/clean-garage.svg" alt="" />
+                    <img src={servicesimg8} alt="" />
                 </div>
             </div>
             </div>
