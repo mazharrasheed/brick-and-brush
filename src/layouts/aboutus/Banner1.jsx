@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Banner1() {
     return (
-        <div className='container full-container banner1 '
+        <div className=' banner1 '
             style={{
                 backgroundImage: "url('images/aboutus/banner1.png')",
                 backgroundSize: "cover",

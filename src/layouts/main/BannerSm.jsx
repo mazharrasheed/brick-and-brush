@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function BannerSm() {
     return (
-        <div className="container full-container">
+        <div className="">
             <div className="row mt-5  ">
                 <div class="baneerSm">
 

@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function ContactForm() {
     return (
-        <div className='container full-container contactus pt-5'
+        <div className=' contactus pt-5'
         style={{
             backgroundImage: "url('/images/contactus.svg')",
             backgroundSize: "cover",

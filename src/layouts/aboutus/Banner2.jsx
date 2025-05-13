@@ -4,7 +4,7 @@ import React from 'react'
 
 export default function Banner2() {
     return (
-        <div className='container full-container banner2 mt-4 '
+        <div className=' banner2 mt-4 '
             style={{
                 backgroundImage: `url(${image1})`,
                 backgroundSize: "cover",

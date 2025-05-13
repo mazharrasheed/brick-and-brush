@@ -4,7 +4,7 @@ import BannerImg from '../../assets/images/architecture-gf.svg';
 export default function Banenr() {
   return (
     <>
-    <div className="container full-container">
+    <div className="">
       <div className="row g-0">
         <div className="banner"  style={{
                     backgroundImage: `url(${BannerImg})`,

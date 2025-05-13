@@ -7,7 +7,7 @@ import image2 from '../../assets/images/kitchen-ourwork.svg'
 export default function OurWorkMain() {
     return (
 
-        <div className='container full-container mt-4' >
+        <div className=' mt-4' >
             <div className='row mt-5 titlerow '>
                 <h2 className=''> OUR WORK  <span className=' fs-6'><Link>ALL WORKS </Link></span></h2>
             </div>

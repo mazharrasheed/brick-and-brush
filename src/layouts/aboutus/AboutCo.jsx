@@ -4,7 +4,7 @@ import image1 from '../../assets/images/Brick&Brush.svg'
 
 export default function AboutCo() {
     return (
-        <div className='container full-container aboutco '
+        <div className=' '
 
         >
             <div className="container ">

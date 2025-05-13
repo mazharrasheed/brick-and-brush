@@ -14,11 +14,11 @@ import servicesimg8 from '../../assets/images/clean-garage.svg';
 export default function ServicesMain() {
     return (
 
-        <div className='container full-container mt-4' >
+        <div className=' mt-4' >
             <div className='row mt-5 titlerow'>
                 <h2 className='z-3'> SERVICES  <span className='fs-6'><Link>ALL SERVICES </Link></span></h2>
             </div>
-            <div className="container full-container">
+            <div className="">
             <div className='row p-3 services '>
                 <div className="col-md-3 p-3 pb-0">
                     <img src={servicesimg1} alt="" />
