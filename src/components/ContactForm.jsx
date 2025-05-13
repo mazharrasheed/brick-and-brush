@@ -1,12 +1,14 @@
 import React from 'react'
 import '../assets/css/contactform.css'
 
+import contacimag from '../assets/images/contactus.svg'
+
 
 export default function ContactForm() {
     return (
         <div className='container full-container contactus'>
 
-            <img class='img-fluid image'  src="images/footerlogo.svg" alt='image' />
+            <img class='img-fluid image'  src={contacimag} alt='image' />
             <div className='overlay'></div>
             <div className='row from-header mt-3' >
                 <p className=' text-center text-white fw-bold z-3'>
