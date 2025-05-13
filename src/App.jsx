@@ -20,7 +20,7 @@ function App() {
 
   return (
     <>
-      <Router>
+      <Router  basename="/brick-and-brush" >
         <Navbar></Navbar>
         <Routes>
           <Route path="/" element={<Main></Main>} />
