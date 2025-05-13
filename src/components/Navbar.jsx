@@ -10,7 +10,7 @@ export default function Navbar() {
     <section className='container full-container '>
         <div className="row p-2 g-0 nav-left ">
           <div className="col-md-3 briks  ">
-            <img className='img' src="/images/Brick&Brush.svg" alt="" />
+            <img className='img' src="/images/Brick&Brush.svg" alt="logo" />
           </div>
           <div className="col-md-5 offset-md-1 navitems ">
             <nav className="navbar mt-2 navbar-expand-lg">
