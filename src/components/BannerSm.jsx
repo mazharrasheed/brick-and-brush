@@ -4,7 +4,7 @@ import '../assets/css/bannersm.css'
 
 export default function BannerSm({image,text1,text2}) {
     return (
-        <div className="container full-container bannersm">
+        <div className="bannersm">
             <div
                 className="image pt-4"
                 style={{
