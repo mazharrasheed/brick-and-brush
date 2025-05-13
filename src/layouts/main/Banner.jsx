@@ -11,7 +11,7 @@ export default function Banenr() {
                     backgroundSize: "cover",
                     backgroundPosition: "center",
                     backgroundRepeat: "no-repeat",
-                    height: "400px",
+                    height: "600px",
                 }}>
           {/* <img className='img z-n1' src={BannerImg} alt="architecture" /> */}
           <p className='z-3 '>THE EASY, RELIABLE WAY <br />
