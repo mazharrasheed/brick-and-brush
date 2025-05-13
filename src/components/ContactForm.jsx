@@ -6,7 +6,7 @@ import contacimag from '../assets/images/contactus.svg'
 
 export default function ContactForm() {
     return (
-        <div className='container full-container contactus'>
+        <div className=' contactus'>
 
             <img class='img-fluid image'  src={contacimag} alt='image' />
             <div className='overlay'></div>

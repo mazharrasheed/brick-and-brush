@@ -7,7 +7,7 @@ export default function Navbar() {
   const location = useLocation(); // Get the current location
   
   return (
-    <section className='container full-container '>
+    <section className=' '>
         <div className="row p-2 g-0 nav-left ">
           <div className="col-md-3 briks  ">
             <img className='img' src="images/Brick&Brush.svg" alt="logo" />

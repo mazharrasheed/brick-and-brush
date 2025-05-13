@@ -4,7 +4,7 @@ import '../assets/css/footer.css'
 
 export default function Footer() {
   return (
-    <div className='container full-container bg-black'>
+    <div className='bg-black'>
       <div className="footer">
         <div className="row log-row  ">
           <div className="col-md-4 ">
