@@ -2,6 +2,8 @@ import React from 'react'
 
 import '../assets/css/bannersm.css'
 
+
+
 export default function BannerSm({image,text1,text2}) {
     return (
         <div className="bannersm">
@@ -13,6 +15,7 @@ export default function BannerSm({image,text1,text2}) {
                     backgroundPosition: "center",
                     backgroundRepeat: "no-repeat",
                     height: "400px",
+                    marginBottom:"20px"
                 }}
             >
 
