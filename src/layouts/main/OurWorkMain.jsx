@@ -1,5 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+
+import image1 from '../../assets/images/kitchen1-ourwork.svg'
+import image2 from '../../assets/images/kitchen-ourwork.svg'
+
 export default function OurWorkMain() {
     return (
 
@@ -10,10 +14,10 @@ export default function OurWorkMain() {
             <div className="container">
             <div className='row p-3 ourwork '>
                 <div className="col-md-6 p-3 pb-0">
-                    <img class="img-fluid" src="images/kitchen1-ourwork.svg" alt="" />
+                    <img class="img-fluid" src={image1} alt="" />
                 </div>
                 <div className="col-md-6 p-3">
-                    <img class="img-fluid" src="images/kitchen-ourwork.svg" alt="" />
+                    <img class="img-fluid" src={image2} alt="" />
                 </div>
             </div>
             </div>
