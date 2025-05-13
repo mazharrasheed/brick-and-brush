@@ -11,7 +11,7 @@ export default function ContactForm() {
             <img class='img-fluid image'  src={contacimag} alt='image' />
             <div className='overlay'></div>
             <div className='row from-header mt-3' >
-                <p className=' text-center text-white fw-bold z-3'>
+                <p className=' text-center text-white fw-bold z-3' >
                     ARE YOU INTRESTED IN OUR SERVICES ? <br />
                     THEN LEAVE A REQUEST AND WE WIL CONTACT YOU
                 </p>
