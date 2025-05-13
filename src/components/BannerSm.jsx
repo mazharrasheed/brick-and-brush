@@ -16,9 +16,10 @@ export default function BannerSm({image,text1,text2}) {
                 }}
             >
 
-                <h1 className='h1 text-black  ps-5 mt-3  '>{text1}</h1>
-                <h3 className='h3  text-black ps-5 '>{text2}</h3>
-                <div class="container full-container ">
+                
+                <div class="task-div ">
+                    <h1 className='h1 text-black  mt-3  '>{text1}</h1>
+                <h3 className='h3  text-black '>{text2}</h3>
                     <div class="row mt-4 ps-3 me-3 ">
                         <div class="col ">
                             <div class="card text-white " style={{ width: '13rem' }}>

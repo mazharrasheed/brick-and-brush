@@ -5,7 +5,10 @@
 }
 
 
+.task-div{
 
+    padding-left: 90px !important;
+}
 
 @media (max-width: 576px) {
 
