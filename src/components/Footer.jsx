@@ -28,9 +28,9 @@ export default function Footer() {
             <div className="row pt-4  ">
               
               <div className="col-md-3 offset-md-1  g-0">
-                <div className="col-md-3 offset-md-1 align-content-center g-0">
+                
                 <h3 className='text-white ' to=''>SERVICES</h3>
-              </div>
+              
                 <ul style={{listStyle:'none',padding:0}}>
                   <li className='link-list'  style={{marginTop:30,}}><Link className='text-decoration-none text-white ' to=''>Home</Link></li>
                   <li className='link-list'  style={{marginTop:30}}><Link className='text-decoration-none text-white ' to=''>ABOUT US</Link></li>
@@ -42,9 +42,9 @@ export default function Footer() {
               </div>
               <div className="col-md-2  g-0 ">
 
-                   <div className="col-md-2 align-content-center g-0">
+              
                 <h3 className='text-white ' to=''>LINKS</h3>
-              </div>
+            
                 <ul style={{listStyle:'none', padding:0}}>
                   <li className='link-list' style={{marginTop:30,}}> <Link className='text-decoration-none text-white ' to='/'>Home</Link> </li>
                   <li className='link-list' style={{marginTop:30,}}> <Link className='text-decoration-none text-white ' to='/aboutus/'>ABOUT US</Link> </li>
@@ -56,10 +56,10 @@ export default function Footer() {
 
               <div className="col-md-5 offset-md-1  g-0">
 
-<div className="col-md-5 offset-md-1 align-content-center g-0">
+
                 <h3 className='text-white ' to=''>WORKING HOURS</h3>
 
-                </div>
+
 
                 <ul style={{listStyle:'none', padding:0}} className='text-white '>
                   <li className='link-list' style={{marginTop:30,}}> Our support team is here to help

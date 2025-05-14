@@ -10,7 +10,8 @@
     height: 100%;
     background-color: rgba(0, 0, 0, 0.1); /* Black with 50% transparency */
     z-index: 1; /* Place it above the image */
-  }
+}
+
 
 .from-header {
     position: relative;
@@ -21,6 +22,12 @@
     position: relative;
     top: -120px;
 }
+
+.form-div {
+
+        padding: 20px !important;
+
+    }
 
 .form-map {
     position: relative;
@@ -46,8 +53,8 @@
 
 @media (max-width: 576px) {
     .image{
-       position: relative;
-       top: -600px;
+    position: relative;
+    top: -600px;
     }
     .from-header {
         position: relative;
@@ -69,7 +76,7 @@
         position: relative;
         top: 0px;
         height: 1130px !important;
-      
+    
     }
 
     .contactus p {
@@ -88,7 +95,7 @@
 
 
     .form-div {
-     
+    
         margin: 0px !important;
         padding: 20px !important;
 

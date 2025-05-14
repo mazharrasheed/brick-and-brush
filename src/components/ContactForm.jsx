@@ -15,7 +15,7 @@ export default function ContactForm() {
                 </p>
             </div>
 
-            <div style={{paddingLeft:90}} className=" row d-flex form-map z-3">
+            <div className=" row d-flex form-map z-3">
                 <div className="col-md-5 form-div ms-5">
                 <h1 className='fw-bold text-white mt-3'>CONTACT WITH US</h1>
                 <h6 className='text-white '> WE ARE READY TO HELP YOU WITH <br /> YOUR HOME RENOVATIONWE PROJECT</h6>
