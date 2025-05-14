@@ -1,5 +1,5 @@
 import React from 'react'
-import '../assets/css/contactform.css'
+
 import contacimag from '../assets/images/contactus.svg'
 
 export default function ContactForm() {

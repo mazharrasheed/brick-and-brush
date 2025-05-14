@@ -2,7 +2,7 @@ import React from 'react'
 import image1 from '../../assets/images/interior-g907cea68c_1920.png'
 import PageHeader from '../../components/PageHeader'
 import ContactForm from '../../components/ContactForm'
-import '../../assets/css/work.css'
+
 
 import ProjectItems from './ProjectItems'
 

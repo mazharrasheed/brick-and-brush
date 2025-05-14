@@ -3,6 +3,17 @@ import { useState } from 'react'
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.min.js'
+import './assets/css/main.css'
+import './assets/css/navbar.css'
+import './assets/css/bannersm.css'
+import './assets/css/contactform.css'
+import './assets/css/footer.css'
+import './assets/css/servicedetail.css'
+import './assets/css/aboutus.css'
+import './assets/css/work.css'
+
+
+
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";

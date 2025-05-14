@@ -2,7 +2,7 @@ import { useParams } from 'react-router-dom';
 import image from '../assets/images/service-1.svg'
 // import { Link, } from 'react-router-dom'
 
-import '../assets/css/servicedetail.css'
+
 import BannerSm from './BannerSm'
 import ContactForm from './ContactForm';
 import smallBannerImg from '../assets/images/architecture.svg';

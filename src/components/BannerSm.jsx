@@ -1,7 +1,5 @@
 import React from 'react'
 
-import '../assets/css/bannersm.css'
-
 export default function BannerSm({image,text1,text2}) {
     return (
         <div className=" bannersm">

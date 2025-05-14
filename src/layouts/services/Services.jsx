@@ -11,6 +11,8 @@ export default function Services() {
   const text2='THE EASY, RELIABLE WAY'
   const text3='TO TAKE CARE OF YOUR HOME'
 
+  const text4="SERVICES"
+
 
   return (
     <>
@@ -18,7 +20,7 @@ export default function Services() {
  <PageHeader image={BannerImg} text1={text1} text2={text2} text3={text3} ></PageHeader>
 </div>
    <div>
-    <OurServices></OurServices>
+    <OurServices text1={text4} ></OurServices>
    </div>
     <ContactForm></ContactForm>
 

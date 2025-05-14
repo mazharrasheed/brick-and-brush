@@ -4,7 +4,7 @@ import BannerSm from '../../components/BannerSm'
 import Banner1 from './Banner1'
 import Banner2 from './Banner2'
 import AboutCo from './AboutCo'
-import '../../assets/css/aboutus.css'
+
 import smallBannerImg from '../../assets/images/architecture.svg';
 export default function Aboutus() {
 

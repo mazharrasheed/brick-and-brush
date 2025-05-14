@@ -20,12 +20,12 @@ const services = [
 
 
 
-export default function OurServices() {
+export default function OurServices({text1,text2}) {
    return (
         <div className='mt-4 mb-3'>
             <div className='row p-5 pb-0 titlerow'>
                 <h2 className='z-3 ms-2'>
-                    SERVICES <span className='fs-6 me-4'><Link to="/services">ALL SERVICES</Link></span>
+                    {text1} <span className='fs-6 me-4'><Link to="/services">{text2}</Link></span>
                 </h2>
             </div>
             <div className='row p-5 pt-0 services'>
