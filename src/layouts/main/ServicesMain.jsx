@@ -13,7 +13,7 @@ import servicesimg8 from '../../assets/images/clean-garage.svg';
 export default function ServicesMain() {
     return (
 
-        <div  className=' mt-4' >
+        <div  className=' mt-4 mb-3' >
             <div className='row p-5 pb-0 titlerow'>
                 <h2 className='z-3 ms-2'> SERVICES  <span className='fs-6 me-4'><Link>ALL SERVICES </Link></span></h2>
             </div>

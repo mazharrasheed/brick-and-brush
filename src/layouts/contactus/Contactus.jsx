@@ -6,7 +6,7 @@ import Bannercontact from './Bannercontact'
 
 export default function Contactus() {
   return (
-    <div>Contactus
+    <div>
 
 <div className='pb-5'>
    <Bannercontact></Bannercontact>

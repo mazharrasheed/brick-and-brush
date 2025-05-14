@@ -11,7 +11,7 @@ import Services from './layouts/services/Services'
 import Works from './layouts/works/Works'
 import Aboutus from './layouts/aboutus/Aboutus'
 import Contactus from './layouts/contactus/Contactus'
-
+import ServiceDetail from './components/ServiceDetail'
 
 import mainBannerImg from './assets/images/architecture-gf.svg';
 import smallBannerImg from './assets/images/architecture.svg';
@@ -28,6 +28,7 @@ function App() {
           <Route path="/ourwork/" element={<Works></Works>} />
           <Route path="/aboutus/" element={<Aboutus></Aboutus>} />
           <Route path="/contactus/" element={<Contactus></Contactus>} />
+          <Route path="/services/:id" element={<ServiceDetail />} />
         </Routes>
         <Footer></Footer>
       </Router>
