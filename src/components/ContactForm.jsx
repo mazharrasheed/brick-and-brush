@@ -5,7 +5,6 @@ import contacimag from '../assets/images/contactus.svg'
 export default function ContactForm() {
     return (
         <div className=' contactus '>
-
             <img  class="img-fluid image"  src={contacimag} alt="image" />
             <div className="overlay"></div>
             <div  className=" from-header  ">
@@ -27,7 +26,7 @@ export default function ContactForm() {
                     </form>
                 </div>
                 <div style={{paddingRight:"90px",position:'relative', left:"70px"}} className=" ms-5 col-md-6 map-div z-3">
-                    <div className=" ">
+                    <div className=" map ">
                     <iframe src="https://www.google.com/" width="100%" height="390" frameborder="0" allowfullscreen></iframe>
                     </div>
                 

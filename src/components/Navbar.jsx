@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link, useLocation } from 'react-router-dom'
-
+import logoimg from '../assets/images/Brick&Brush.svg'
 
 export default function Navbar() {
 
@@ -12,7 +12,7 @@ export default function Navbar() {
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid my-nav">
         <div className="briks  nav-left">
-            <img className='img' src="images/Brick&Brush.svg" alt="" />
+            <img className='img' src={logoimg} alt="" />
           </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>

@@ -127,15 +127,20 @@
         margin-left: -75px !important;
         padding-right: 0px !important;
 
-
     }
 
 .contactus {
-
     height:1050px !important;
     margin-left: 0px !important;
-
+    margin-top: 25px !important;
 }
 
+.form-map {
+padding: 15px !important;
+}
+
+.map{
+    padding: 13px !important;
+}
 
 }

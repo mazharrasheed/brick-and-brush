@@ -1,11 +1,10 @@
 import React from 'react'
-import image1 from '../../assets/images/interior-g907cea68c_1920.png'
 
-export default function Banner1() {
+export default function PageHeader({image,text1,text2,text3}) {
     return (
         <div className=' banner1 '
             style={{
-                backgroundImage: `url(${image1})`,
+                backgroundImage: `url(${image})`,
                 backgroundSize: "cover",
                 backgroundPosition: "center",
                 backgroundRepeat: "no-repeat",
@@ -13,10 +12,10 @@ export default function Banner1() {
             }}
         >
             <div className="container">
-            <p className='p1 text-white  '>BRICK AND BRUSH INC </p>
+            <p className='p1 text-white  '>{text1} </p>
             <p className='p2 text-white ms-4'>
-            ABOUT COMPANY, WHAT WER DO, <br />
-            WHY YOU’LL BE HAPPY YOU CHOSE US
+            {text2} <br />
+            {text3}
             </p>
         </div>
         </div>

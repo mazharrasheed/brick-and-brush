@@ -1,0 +1,25 @@
+
+
+
+
+.project-container{
+    padding: 80px;
+}
+
+
+  @media (max-width: 576px) {
+
+
+.project-container{
+    padding: 5px;
+}
+.project-container h1{
+    margin-left: 28px !important;
+}
+
+.project-items{
+    
+  margin: 0px !important;
+  }
+
+}

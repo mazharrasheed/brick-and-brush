@@ -1,5 +1,15 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+
+import servicesimg1 from '../../assets/images/painting-a-deck-vs-staining.svg';
+import servicesimg2 from '../../assets/images/exterior-house-painting-in-winter.svg';
+import servicesimg3 from '../../assets/images/painting-a-fence-vs-staining.svg';
+import servicesimg4 from '../../assets/images/clean-garage.svg';
+import servicesimg5 from '../../assets/images/painting-a-deck-vs-staining.svg';
+import servicesimg6 from '../../assets/images/exterior-house-painting-in-winter.svg';
+import servicesimg7 from '../../assets/images/painting-a-fence-vs-staining.svg';
+import servicesimg8 from '../../assets/images/clean-garage.svg';
+
 export default function ServicesMain() {
     return (
 

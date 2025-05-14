@@ -1,5 +1,5 @@
 import React from 'react'
-import image1 from '../../assets/images/interior-g907cea68c_1920.png'
+import image1 from '../../assets/images/brick-wall.png'
 
 export default function Banner1() {
     return (

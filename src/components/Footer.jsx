@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import '../assets/css/footer.css'
-
+import logoimg from '../assets/images/footerlogo.svg'
 export default function Footer() {
   return (
     <div className=' bg-black'>
@@ -9,7 +9,7 @@ export default function Footer() {
       <div className="footer">
         <div className="row p-5  ">
           <div className="col-md-4 logo-dev ">
-            <img className='img-fluid' src="images/footerlogo.svg" alt="" />
+            <img className='img-fluid' src={logoimg} alt="" />
             <p className='text-white ps-3'>
               BRICK & BRUSH INC - however, forget
               that consultation with a broad

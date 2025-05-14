@@ -6,8 +6,11 @@ position: relative;
 }
 
 
-
 @media (max-width: 576px) {
+
+.footer{
+  padding-left: 25px;
+}
 
 .logo-dev{
 
