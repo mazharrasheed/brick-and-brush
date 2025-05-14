@@ -1,5 +1,5 @@
 import React from 'react'
-import image1 from '../../assets/images/kitchen1-ourwork.svg'
+import image1 from '../../assets/images/Rectangle 115 .png'
 export default function Banner2() {
     return (
         <div className=' banner2 mt-4 mb-5 '
@@ -11,9 +11,9 @@ export default function Banner2() {
                 height: "400px",
             }}
         >
-            <div className="container">
+            <div className="container pt-4">
             <p className='p1 text-white  '> WHAT WE DO </p>
-            <p className='p3 text-white ms-4'>
+            <p className='p3 text-white'>
             OF DAILY WORK ON THE FORMATION OF A POSITION REQUIRES US TO <br />
             ANALYZE THE APPROPRIATE ACTIVATION CONDITIONS. THE TASK OF THE <br />
             ORGANIZATION, IN PARTICULAR THE BEGINNING OF DAILY WORK ON THE <br />

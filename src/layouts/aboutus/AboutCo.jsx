@@ -13,8 +13,8 @@ export default function AboutCo() {
                 </div>
 
                 <div className="row mt-5 ">
-                    <div className="col-md-6 justify-content-center mt-5 p-5">
-                        <img className=" mt-5 " src={image1} alt="briklogo" />
+                    <div className="col-md-6 justify-content-center p-5">
+                        <img className=" logo-image " src={image1} alt="briklogo" height={170} />
                     </div>
                     <div className="col-md-6 justify-content-center g-0">
                         <p className='p2'>

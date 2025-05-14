@@ -20,6 +20,22 @@
     font-weight: bold;
   }
 
+.banner2 .p1{
+    font-family:'Montserrat';
+    font-size: 60px;
+    font-weight: bold;
+    margin-left: -150px;
+  }
+  .banner2 .p3{
+    font-family:'Montserrat';
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: bold;
+    margin-left: -150px;
+  }
+
+
+
 
   .aboutco .p1{
     font-family:'Montserrat';
@@ -32,7 +48,15 @@
     font-weight: bold;
   }
 
+.logo-image{
+  height: 170px;
+}
+
   @media (max-width: 576px) {
+
+.logo-image{
+  height: 117px;
+}  
   
 .aboutco img{
     margin: 15px !important;
@@ -65,8 +89,6 @@
     justify-content: center
 }
 
-
-
 .banner1 .p1{
    
   font-size: 25px;
@@ -88,6 +110,8 @@
     font-weight: bold;
     justify-content: center;
     text-align: center;
+    margin-left: 0px !important;
+    color:black !important;
     
   }
   .banner2 .p2{
@@ -95,6 +119,7 @@
     font-size: 15px;
     line-height: 45px;
     font-weight: bold;
+   
   }
 
   .banner2 .p3{
@@ -102,7 +127,10 @@
     font-size: 16px;
     line-height: 20px;
     font-weight: bold;
+    margin-left: 0px !important;
+    padding: 15px;
+    color:black !important;
+    
   }
 
-  
   }

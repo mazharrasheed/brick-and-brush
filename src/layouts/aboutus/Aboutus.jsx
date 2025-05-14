@@ -8,23 +8,22 @@ import '../../assets/css/aboutus.css'
 import smallBannerImg from '../../assets/images/architecture.svg';
 export default function Aboutus() {
 
-  const text1="WHY YOU’LL BE HAPPY"
-  const text2="YOU CHOSE US"
+  const text1 = "WHY YOU’LL BE HAPPY"
+  const text2 = "YOU CHOSE US"
 
   return (
 
-  
-<div>
-  <Banner1></Banner1>
-  <AboutCo></AboutCo>
-  <Banner2></Banner2>
-  <div className='mb-5'>
-<BannerSm image={smallBannerImg} text1={text1} text2={text2}></BannerSm>
-  </div>
+    <div>
+      <Banner1></Banner1>
+      <AboutCo></AboutCo>
+      <Banner2></Banner2>
+      <div className='mb-5'>
+        <BannerSm image={smallBannerImg} text1={text1} text2={text2}></BannerSm>
+      </div>
 
 
- <ContactForm></ContactForm>
-</div>
+      <ContactForm></ContactForm>
+    </div>
 
   )
 }
