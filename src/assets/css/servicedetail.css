@@ -1,0 +1,34 @@
+
+
+.service-detail{
+
+    padding:20px 80px !important;
+    
+ 
+}
+
+
+.detail-img{
+    width:700px
+}
+
+
+  @media (max-width: 576px) {
+
+
+.service-detail{
+
+    padding:0px 28px !important;
+    
+ 
+}
+
+
+.detail-img{
+    width:280px;
+    margin-bottom: 40px;
+
+    
+}
+
+  }
