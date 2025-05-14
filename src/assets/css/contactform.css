@@ -136,11 +136,15 @@
 }
 
 .form-map {
-padding: 15px !important;
+padding: 5px 15px 0px 15px !important;
+margin-bottom: 0px !important;
+
 }
 
 .map{
-    padding: 13px !important;
+    padding: 0px 15px 0px 15px !important;
+    margin-bottom: 10px !important;
+    
 }
 
 }
