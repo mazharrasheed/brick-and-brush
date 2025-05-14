@@ -8,7 +8,7 @@ export default function Footer() {
 
       <div className="footer">
         <div className="row p-5  ">
-          <div className="col-md-4 ">
+          <div className="col-md-4 logo-dev ">
             <img className='img-fluid' src="images/footerlogo.svg" alt="" />
             <p className='text-white ps-3'>
               BRICK & BRUSH INC - however, forget
@@ -26,45 +26,48 @@ export default function Footer() {
           </div>
           <div className="col-md-8">
             <div className="row pt-4  ">
-              <div className="col-md-3 offset-md-1 align-content-center g-0">
+              
+              <div className="col-md-3 offset-md-1  g-0">
+                <div className="col-md-3 offset-md-1 align-content-center g-0">
                 <h3 className='text-white ' to=''>SERVICES</h3>
               </div>
-              <div className="col-md-2 align-content-center g-0">
-                <h3 className='text-white ' to=''>LINKS</h3>
-              </div>
-              <div className="col-md-5 offset-md-1 align-content-center g-0">
-                <h3 className='text-white ' to=''>WORKING HOURS</h3>
-              </div>
-
-
-              <div className="col-md-3 offset-md-1  g-0">
                 <ul style={{listStyle:'none',padding:0}}>
-                  <li  style={{marginTop:30,}}><Link className='text-decoration-none text-white ' to=''>Home</Link></li>
-                  <li  style={{marginTop:30}}><Link className='text-decoration-none text-white ' to=''>ABOUT US</Link></li>
-                  <li  style={{marginTop:30}}><Link className='text-decoration-none text-white ' to=''>SERVICES</Link></li>
-                  <li  style={{marginTop:30}}><Link className='text-decoration-none text-white ' to=''>OUR WORK</Link></li>
-                  <li  style={{marginTop:30}}><Link className='text-decoration-none text-white ' to=''>CONTAC US</Link></li>
+                  <li className='link-list'  style={{marginTop:30,}}><Link className='text-decoration-none text-white ' to=''>Home</Link></li>
+                  <li className='link-list'  style={{marginTop:30}}><Link className='text-decoration-none text-white ' to=''>ABOUT US</Link></li>
+                  <li className='link-list'  style={{marginTop:30}}><Link className='text-decoration-none text-white ' to=''>SERVICES</Link></li>
+                  <li className='link-list'  style={{marginTop:30}}><Link className='text-decoration-none text-white ' to=''>OUR WORK</Link></li>
+                  <li className='link-list'  style={{marginTop:30}}><Link className='text-decoration-none text-white ' to=''>CONTAC US</Link></li>
                 </ul>
       
               </div>
               <div className="col-md-2  g-0 ">
+
+                   <div className="col-md-2 align-content-center g-0">
+                <h3 className='text-white ' to=''>LINKS</h3>
+              </div>
                 <ul style={{listStyle:'none', padding:0}}>
-                  <li style={{marginTop:30,}}> <Link className='text-decoration-none text-white ' to='/'>Home</Link> </li>
-                  <li style={{marginTop:30,}}> <Link className='text-decoration-none text-white ' to='/aboutus/'>ABOUT US</Link> </li>
-                  <li style={{marginTop:30,}}> <Link className='text-decoration-none text-white ' to='/services/'>SERVICES</Link> </li>
-                  <li style={{marginTop:30,}}> <Link className='text-decoration-none text-white ' to='/ourwork/'>OUR WORK</Link> </li>
-                  <li style={{marginTop:30,}}> <Link className='text-decoration-none text-white ' to='contactus'>CONTAC US</Link> </li>
+                  <li className='link-list' style={{marginTop:30,}}> <Link className='text-decoration-none text-white ' to='/'>Home</Link> </li>
+                  <li className='link-list' style={{marginTop:30,}}> <Link className='text-decoration-none text-white ' to='/aboutus/'>ABOUT US</Link> </li>
+                  <li className='link-list' style={{marginTop:30,}}> <Link className='text-decoration-none text-white ' to='/services/'>SERVICES</Link> </li>
+                  <li className='link-list' style={{marginTop:30,}}> <Link className='text-decoration-none text-white ' to='/ourwork/'>OUR WORK</Link> </li>
+                  <li className='link-list' style={{marginTop:30,}}> <Link className='text-decoration-none text-white ' to='contactus'>CONTAC US</Link> </li>
                 </ul>               
               </div>
 
               <div className="col-md-5 offset-md-1  g-0">
+
+<div className="col-md-5 offset-md-1 align-content-center g-0">
+                <h3 className='text-white ' to=''>WORKING HOURS</h3>
+
+                </div>
+
                 <ul style={{listStyle:'none', padding:0}} className='text-white '>
-                  <li style={{marginTop:30,}}> Our support team is here to help
+                  <li className='link-list' style={{marginTop:30,}}> Our support team is here to help
                   you 24/7</li>
-                  <li style={{marginTop:30,}}> Monday-Friday: 8:30 AM - 5:30 PM</li>
-                  <li style={{marginTop:30,}}>Saturday: 10:00 AM - 2:00 PM</li>
-                  <li style={{marginTop:30,}}>Sunday: Closed</li>
-                  <li style={{marginTop:30,}}>Our Help Desk: 24/7</li>
+                  <li className='link-list' style={{marginTop:30,}}> Monday-Friday: 8:30 AM - 5:30 PM</li>
+                  <li className='link-list' style={{marginTop:30,}}>Saturday: 10:00 AM - 2:00 PM</li>
+                  <li className='link-list' style={{marginTop:30,}}>Sunday: Closed</li>
+                  <li className='link-list' style={{marginTop:30,}}>Our Help Desk: 24/7</li>
                 </ul>
               </div>
             </div>

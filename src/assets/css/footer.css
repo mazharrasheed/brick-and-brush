@@ -9,6 +9,14 @@ position: relative;
 
 @media (max-width: 576px) {
 
+.logo-dev{
 
+  margin-left: -20px;
+}
+
+.link-list{
+
+  margin-top: 0px !important;
+}
 
   }

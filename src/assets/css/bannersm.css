@@ -54,13 +54,15 @@
 
  .work-item{
 
-    margin-left: 0px;
+    margin-left: -3px;
   
  }
 
  .work-item .card{
 
     padding-left: 10px;
+    padding-left: 10px;
+    width:18rem !important
  }
 
   } 
