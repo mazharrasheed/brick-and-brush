@@ -17,7 +17,7 @@ export default function ContactForm() {
 
             <div style={{paddingLeft:90}} className=" row d-flex form-map z-3">
                 <div className="col-md-5 form-div ms-5">
-                <h1 className='fw-bold text-white'>CONTACT WITH US</h1>
+                <h1 className='fw-bold text-white mt-3'>CONTACT WITH US</h1>
                 <h6 className='text-white '> WE ARE READY TO HELP YOU WITH <br /> YOUR HOME RENOVATIONWE PROJECT</h6>
                     <form action="" className=''>
                         <input className='form-control mb-4' type="text" placeholder='NAME' />
