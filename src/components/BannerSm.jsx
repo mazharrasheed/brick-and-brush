@@ -20,7 +20,7 @@ export default function BannerSm({image,text1,text2}) {
                 <h1 className='h1 ms-2 text-black  mt-3  '>{text1}</h1>
                 <h3 className='h3 ms-2  text-black '>{text2}</h3>
                 <div class=" ">
-                    <div style={{ }} class=" row mt-4  me-5 ">
+                    <div style={{ }} class=" row mt-4  ">
                         <div class="col work-item ">
                             <div class="card text-white " style={{ width: '13rem' }}>
                                 <div class="card-body">
