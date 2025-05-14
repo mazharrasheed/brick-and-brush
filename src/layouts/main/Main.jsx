@@ -8,6 +8,7 @@ import ContactForm from '../../components/ContactForm';
 // import mainBannerImg from '../../assets/images/architecture-gf.svg';
 import smallBannerImg from '../../assets/images/architecture.svg';
 import '../../assets/css/main.css'
+import '../../assets/css/navbar.css'
 
 export default function Main() {
   const text1='YOUR RENOVATION WILL RUN QUAILITAIVELY'

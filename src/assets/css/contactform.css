@@ -1,5 +1,5 @@
-.image {
-    opacity: 1;
+.image{
+    opacity:1;
 }
 
 .overlay {
@@ -8,32 +8,30 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.1);
-    /* Black with 50% transparency */
-    z-index: 1;
-    /* Place it above the image */
-}
+    background-color: rgba(0, 0, 0, 0.1); /* Black with 50% transparency */
+    z-index: 1; /* Place it above the image */
+  }
 
 .from-header {
     position: relative;
-    top: -530px;
+    top: -660px;
 }
 
 .form-map {
     position: relative;
-    padding: 0px 50px 0px 50px !important;
-    top: -530px;
+    top: -580px;
 }
+
 
 .contactus {
     padding: 0px !important;
     position: relative;
-    height: 850px !important;
+    height: 868px !important;
 
 }
 
 .contactus p {
-    margin-top: -250px !important;
+    margin-top: 0px !important;
     padding-top: 0px !important;
     font-family: 'Montserrat';
     font-size: 35px !important;
@@ -42,29 +40,18 @@
 }
 
 @media (max-width: 576px) {
-
-    .image {
-        position: relative;
-        top: -600px;
+    .image{
+       position: relative;
+       top: -600px;
     }
-
     .from-header {
         position: relative;
-        top: -1350px;
-    }
+        top: -1390px;
+    }   
 
     .form-map {
         position: relative;
-        top: -1250px;
-        padding: 0px !important;
-    }
-
-    .form-map h1 {
-        font-size: 25px !important;
-    }
-
-    .form-map h6 {
-        font-size: 12px !important;
+        top: -1290px;
     }
 
     .contactus {
@@ -72,7 +59,7 @@
         position: relative;
         top: 0px;
         height: 1130px !important;
-
+      
     }
 
     .contactus p {
@@ -88,6 +75,7 @@
         padding-top: 0px !important;
 
     }
+
 
     .form-div .pt-5 {
         position: relative;
@@ -113,8 +101,18 @@
         align-items: center;
         display: flex;
         margin-top: 50px !important;
-        margin-left: -20px !important;
+        margin-left: -5px !important;
+        padding-right: 0px !important;
+
 
     }
+
+.contactus {
+
+    height:1050px !important;
+    margin-left: 7px !important;
+
+}
+
 
 }

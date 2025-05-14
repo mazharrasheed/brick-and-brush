@@ -15,7 +15,7 @@
 .full-container{
   margin: 0px !important;
   padding: 0px 0px 0px 0px !important;
-  max-width: 1540px !important; /* Adjust this value based on the desired max width */
+  max-width: 1980x !important; /* Adjust this value based on the desired max width */
   padding-right: 15px; /* Match Bootstrap container padding */
   padding-left: 15px;
   margin-right: auto;
@@ -54,7 +54,6 @@
 
 
 @media (max-width: 576px) {
-  
   .nav-link{
     color: rgb(37, 177, 170) !important;
     background-color: rgba(236, 197, 197, 0.288) !important;
@@ -62,27 +61,25 @@
 
   .briks{
     justify-content: center;
-    width: 100%;
   }
 
   .contact {
-   display: none;
+  display: none;
   }
 
   .bannersm .pt-4{
-
 height: 2500px;
   }
+
   .bannersm .col {
     justify-content: center;
     align-items: center;
     display: flex;
   }
+
   .bannersm .card{
     margin-left: 5px;
     margin-bottom: 30px;
     width: 600px !important;
   }
-
-
 }

@@ -2,11 +2,9 @@ import React from 'react'
 
 import '../assets/css/bannersm.css'
 
-
-
 export default function BannerSm({image,text1,text2}) {
     return (
-        <div className="bannersm">
+        <div className=" bannersm">
             <div
                 className="image pt-4"
                 style={{
@@ -15,16 +13,15 @@ export default function BannerSm({image,text1,text2}) {
                     backgroundPosition: "center",
                     backgroundRepeat: "no-repeat",
                     height: "400px",
-                    marginBottom:"20px"
+                    paddingLeft:90
                 }}
             >
 
-                
-                <div class="task-div ">
-                    <h1 className='h1 text-black  mt-3  '>{text1}</h1>
-                <h3 className='h3  text-black '>{text2}</h3>
-                    <div class="row mt-4 ps-3 me-3 ">
-                        <div class="col ">
+                <h1 className='h1 ms-2 text-black  mt-3  '>{text1}</h1>
+                <h3 className='h3 ms-2  text-black '>{text2}</h3>
+                <div class=" ">
+                    <div style={{ }} class=" row mt-4  me-5 ">
+                        <div class="col work-item ">
                             <div class="card text-white " style={{ width: '13rem' }}>
                                 <div class="card-body">
                                 <h1 >1</h1>
@@ -32,7 +29,7 @@ export default function BannerSm({image,text1,text2}) {
                                 </div>
                             </div>
                         </div>
-                        <div class="col ">
+                        <div class="col work-item ">
                             <div class="card text-white" style={{ width: '13rem' }}>
                                 <div class="card-body">
                                 <h1 >2</h1>
@@ -40,7 +37,7 @@ export default function BannerSm({image,text1,text2}) {
                                 </div>
                             </div>
                         </div>
-                        <div class="col ">
+                        <div class="col work-item ">
                             <div class="card text-white" style={{ width: '13rem' }}>
                                 <div class="card-body">
                                 <h1 >3</h1>
@@ -48,7 +45,7 @@ export default function BannerSm({image,text1,text2}) {
                                 </div>
                             </div>
                         </div>
-                        <div class="col">
+                        <div class="col work-item">
                             <div class="card text-white" style={{ width: '13rem' }}>
                                 <div class="card-body">
                                 <h1 >4</h1>
@@ -56,7 +53,7 @@ export default function BannerSm({image,text1,text2}) {
                                 </div>
                             </div>
                         </div>
-                        <div class="col">
+                        <div class="col work-item">
                             <div class="card text-white" style={{ width: '13rem' }}>
                                 <div class="card-body">
                                 <h1 >5</h1>

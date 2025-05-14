@@ -5,10 +5,7 @@
 }
 
 
-.task-div{
 
-    padding-left: 90px !important;
-}
 
 @media (max-width: 576px) {
 
@@ -38,11 +35,28 @@
     .bannersm .h1{
      
         text-align: center;
+        padding-left: 10px !important;
+        margin-left: 0px !important;
     }
     .bannersm .h3{
      
         text-align: center;
     }
   
+  .image{
   
-  }
+    padding-left: 0px !important;
+   
+}
+
+ .work-item{
+
+    margin-left: 25px;
+ }
+
+ .work-item .card{
+
+    padding-left: 20px;
+ }
+
+  } 

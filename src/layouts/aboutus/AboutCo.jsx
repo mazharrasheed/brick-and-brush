@@ -1,10 +1,8 @@
 import React from 'react'
-import image1 from '../../assets/images/Brick&Brush.svg'
-
 
 export default function AboutCo() {
     return (
-        <div className=' '
+        <div className='container full-container aboutco '
 
         >
             <div className="container ">
@@ -15,8 +13,8 @@ export default function AboutCo() {
                 </div>
 
                 <div className="row mt-5 ">
-                    <div className="col-md-6 justify-content-center">
-                        <img className=" mt-5 " src={image1} alt="briklogo" />
+                    <div className="col-md-6 justify-content-center mt-5 p-5">
+                        <img className=" mt-5 " src="images/Brick&Brush.svg" alt="briklogo" />
                     </div>
                     <div className="col-md-6 justify-content-center g-0">
                         <p className='p2'>

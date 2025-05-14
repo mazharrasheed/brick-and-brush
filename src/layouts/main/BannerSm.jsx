@@ -2,12 +2,12 @@ import React from 'react'
 
 export default function BannerSm() {
     return (
-        <div className="">
+        <div className="container full-container">
             <div className="row mt-5  ">
                 <div class="baneerSm">
 
                     <img src="images/architecture.svg" class="img-fluid" alt="Architecture" />
-                    <h1 className='h1 m-5 mb-0'>YOUR RENOVATION WILL RUN QUAILITAIVELY</h1>
+                    <h1 className='h1 m-1 mb-0'>YOUR RENOVATION WILL RUN QUAILITAIVELY</h1>
                     <h3 className='h3 ms-5'>THANKS TO OUR 5 STEP PROCESS</h3>
 
                     <div className="row justify-content-center text-white ">

@@ -1,10 +1,10 @@
 import React from 'react'
-import image1 from '../../assets/images/kitchen-ourwork.svg'
+
 export default function Banner1() {
     return (
-        <div className=' banner1 '
+        <div className='container full-container banner1 '
             style={{
-                backgroundImage: `url(${image1})`,
+                backgroundImage: "url('images/aboutus/banner1.png')",
                 backgroundSize: "cover",
                 backgroundPosition: "center",
                 backgroundRepeat: "no-repeat",
