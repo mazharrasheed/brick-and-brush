@@ -17,6 +17,7 @@ import './assets/css/work.css'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
+// import { HashRouter as Router } from 'react-router-dom';
 import Main from './layouts/main/Main'
 import Services from './layouts/services/Services'
 import Works from './layouts/works/Works'

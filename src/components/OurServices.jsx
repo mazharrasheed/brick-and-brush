@@ -12,10 +12,10 @@ const services = [
     { id: 2, image: servicesimg2, label: 'Exterior Painting in Winter' },
     { id: 3, image: servicesimg3, label: 'Painting Fence vs Staining' },
     { id: 4, image: servicesimg4, label: 'Clean Garage' },
-    { id: 5, image: servicesimg1, label: 'Painting Deck vs Staining' },
-    { id: 6, image: servicesimg2, label: 'Exterior Painting in Winter' },
-    { id: 7, image: servicesimg3, label: 'Painting Fence vs Staining' },
-    { id: 8, image: servicesimg4, label: 'Clean Garage' },
+    { id: 1, image: servicesimg1, label: 'Painting Deck vs Staining' },
+    { id: 2, image: servicesimg2, label: 'Exterior Painting in Winter' },
+    { id: 3, image: servicesimg3, label: 'Painting Fence vs Staining' },
+    { id: 4, image: servicesimg4, label: 'Clean Garage' },
 ];
 
 
