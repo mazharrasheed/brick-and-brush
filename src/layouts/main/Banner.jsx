@@ -6,7 +6,7 @@ export default function Banenr() {
 
         <div className="banner">
           <img className='img z-n1' src={BannerImg} alt="architecture" />
-          <p className='z-3 baner-text '>THE EASY, RELIABLE WAY <br />
+          <p className='z-3 baner-text ps-5 '>THE EASY, RELIABLE WAY <br />
             TO TAKE CARE OF YOUR  HOME</p>
         </div>
 
