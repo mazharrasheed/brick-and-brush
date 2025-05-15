@@ -54,10 +54,7 @@
 
 
 @media (max-width: 576px) {
-  .nav-link{
-    color: rgb(37, 177, 170) !important;
-    background-color: rgba(236, 197, 197, 0.288) !important;
-  }
+
 
   .briks{
     justify-content: center;
